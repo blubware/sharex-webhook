@@ -1,0 +1,15 @@
+﻿{
+  "Name": "byte's screenshotting json",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "content": "$filename$ screenshotted at %d of %mon at %h:%mi %pm",
+    "username": "screenshots",
+    "avatar_url": "https://static.wikia.nocookie.net/bleach/images/9/9a/Ep127GinProfile.png/revision/latest?cb=20220904003512&path-prefix=en",
+    "tts": "false"
+  },
+  "FileFormName": "file",
+  "URL": "$json:attachments[0].url$"
+}
